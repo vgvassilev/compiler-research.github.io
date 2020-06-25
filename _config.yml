@@ -1,0 +1,53 @@
+# Site Settings
+title: Computational Research
+tagline: Driven by enabling scientists to program for speed, Interoperability, Interactivity, Flexibility, and Reproducibility
+email: david.lange@princeton.edu
+description: >
+  Longer description for your webpage
+
+permalink: pretty
+
+disqus:
+  # Leave shortname blank to disable comments site-wide.
+  shortname: 
+
+plugins:
+  - jekyll-sitemap
+  - jekyll-feed
+  - jekyll-seo-tag
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+  # Added
+  - _cache
+  - _scripts
+  - bin
+  - .github
+
+url: "http://compiler-research.org"
+github_username: compiler-research
+baseurl: ""
+
+
+sass:
+  style: compressed
+  source_dir: _sass
+
+#google_analytics: UA-code-here
+
+defaults:
+  - scope:
+      path: "pages"
+      type: "pages"
+    values:
+      layout: page
+      show_sidebar: false
+      hide_hero: true
+
+remote_theme: chrisrhymes/bulma-clean-theme
