@@ -1,4 +1,4 @@
-# Project site template
+# Website setup
 
 
 ## Setup for local development
