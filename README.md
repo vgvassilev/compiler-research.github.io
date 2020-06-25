@@ -1,30 +1,5 @@
 # Project site template
 
-## Make a new website
-
-See the [preview here](https://henryiii.github.io/project_site_template).
-
-To use this template for your own site:
-
-1. Click ["Use this template"](https://github.com/henryiii/project_site_template/generate) on the [GitHub landing page](https://github.com/henryiii/project_site_template).
-2. Fill in the repository settings (name, etc).
-    * If you want the site to be `<name>.github.io`, you should name the repository `<name>.github.io`. Otherwise, it will be at `<name>.github.io/<repo name>`
-    * If you want a custom domain, that can be configured in the GitHub settings (remember to set it in `config.yml` too)
-3. Set up the details for your site:
-    * `_config.yml` has basic settings like names.
-    * `_data/navigation.yml` has the menu structure.
-    * `index.md` is the landing page.
-    * Other pages are in `pages/`.
-    * You can customize the footer message at `_includes/footer.html`
-
-Other tips can be found at [chrisrhymes/bulma-clean-theme](https://github.com/chrisrhymes/bulma-clean-theme), the theme for the site. A few important ones:
-
-* The large banner with image background is called the `hero`:
-    * `hero_image=address` will set it.
-    * `hide_hero=false` will enable the hero on other pages.
-* Posts are disabled, but can be enabled manually (the theme supports them)
-* Other menu options include sidebar, tabs, and footer links. See the theme page for more details.
-
 
 ## Setup for local development
 
@@ -103,7 +78,4 @@ bundle exec jekyll serve
 This will incrementally rebuild if anything changes in your directory. Exit with Control-C.
 
 
-### Template
-
-Template is available here: <https://github.com/henryiii/project_site_template>
 
